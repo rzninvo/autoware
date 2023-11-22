@@ -1,0 +1,6 @@
+- name: Install ouster_sdk[examples] for Python 3
+  become: true
+  ansible.builtin.pip:
+    name: ouster-sdk[examples]
+    executable: pip3
+    state: latest

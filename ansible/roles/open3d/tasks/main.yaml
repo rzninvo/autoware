@@ -1,0 +1,6 @@
+- name: Install open3d for Python 3
+  become: true
+  ansible.builtin.pip:
+    name: open3d
+    executable: pip3
+    state: latest

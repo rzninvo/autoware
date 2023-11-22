@@ -49,3 +49,5 @@
     - role: autoware.dev_env.tensorrt
       when: prompt_install_nvidia == 'y'
     - role: autoware.dev_env.git_lfs
+    - role: autoware.dev_env.open3d
+    - role: autoware.dev_env.ouster_sdk
